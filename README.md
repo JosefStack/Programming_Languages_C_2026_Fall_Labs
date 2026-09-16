@@ -33,6 +33,9 @@ Each week consists of one **lecture** (2×45 min) and one **lab** (2×45 min).
 - Simple arithmetic calculator
 - Explore `printf` / `scanf` format specifiers
 
+**Note**
+- task done: updated hello.c
+
 ---
 
 ## Week 2 – Control Flow & Functions
