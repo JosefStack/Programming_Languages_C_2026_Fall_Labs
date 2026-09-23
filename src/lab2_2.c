@@ -24,11 +24,11 @@ int main(void) {
     int n;
 
     printf("Enter a non-negative integer n: ");
-    int result = scanf("%d", &n);
+    int input_result = scanf("%d", &n);
 
     // TODO: validate input, call function, print result
-    if (n < 0 || result != 1) {
-        printf("Please enter a positive integer.\n");
+    if (n < 0 || input_result != 1) {
+        printf("Please enter a non-negative integer.\n");
         return 1;
     } else {
         long long result = factorial(n);

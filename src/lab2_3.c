@@ -30,10 +30,10 @@
         int n;
 
         printf("Enter an integer n (>= 2): ");
-        int result = scanf("%d", &n);
+        int input_result = scanf("%d", &n);
 
         // TODO: validate input and print all primes up to n
-        if (result != 1 || n < 2) {
+        if (input_result != 1 || n < 2) {
             printf("Enter a valid integer >=2.\n");
         } else {
             printf("Prime numbers up to %d:\n", n);

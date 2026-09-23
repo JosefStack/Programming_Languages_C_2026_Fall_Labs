@@ -27,9 +27,9 @@ int main(void) {
 
     printf("Enter a positive integer n: ");
     // TODO: validate input, call function, and print result
-    int result = scanf("%d", &n);
+    int input_result = scanf("%d", &n);
 
-    if (n < 1 || result != 1) {
+    if (n < 1 || input_result != 1) {
         printf("Please enter a positive integer.\n");
     } else {
         int result = sum_to_n(n);
